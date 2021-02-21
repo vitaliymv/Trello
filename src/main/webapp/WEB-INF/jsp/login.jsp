@@ -28,11 +28,11 @@
                 </div>
 
                 <div class="form-group">
-                    <input  class="form-control"name="password" type="password" placeholder="Password"/>
+                    <input  class="form-control" name="password" type="password" placeholder="Password"/>
                     <i class="fa fa-lock"></i>
                 </div>
                 <div class="form-group">
-                    <button  class="btn btn-default" type="submit" onclick="login()">Log In</button>
+                    <button  class="btn btn-default" type="submit">Log In</button>
                 </div>
             </form>
         </div>
@@ -40,6 +40,5 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<%--<script src="../../resources/js/main.js"></script>--%>
 </body>
 </html>

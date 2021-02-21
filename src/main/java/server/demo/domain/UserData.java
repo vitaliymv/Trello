@@ -13,8 +13,8 @@ import java.util.Set;
 
 @Setter
 @Getter
-@ToString
 @Entity
+
 @Table(name = "userData")
 public class UserData implements UserDetails {
 
@@ -24,6 +24,13 @@ public class UserData implements UserDetails {
 
     @Column(name = "userName", unique = true, nullable = false)
     private String userName;
+
+    @Override
+    public String toString() {
+        return "UserData{" +
+                "userName='" + userName + '\'' +
+                '}';
+    }
 
     @Column(name = "password")
     private String password;

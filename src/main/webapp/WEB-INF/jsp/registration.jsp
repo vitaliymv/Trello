@@ -17,7 +17,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post">
 
                 <span class="heading">Sign up</span>
                 <div class="form-group">

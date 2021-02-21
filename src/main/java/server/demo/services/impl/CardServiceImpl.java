@@ -7,6 +7,7 @@ import server.demo.repository.CardRepository;
 import server.demo.services.CardService;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CardServiceImpl implements CardService {
@@ -22,5 +23,10 @@ public class CardServiceImpl implements CardService {
     @Override
     public List<Card> findAll() {
         return cardRepository.findAll();
+    }
+
+    @Override
+    public List<Card> findByUser(Long id) {
+        return cardRepository.findCardsByUserDataId(id);
     }
 }
